@@ -25,19 +25,6 @@ Platform streaming perlu terus mengevaluasi konten mana yang worth diproduksi/di
 
 Kedua tabel di-**join** menggunakan kolom `id` untuk memungkinkan analisis level cast, sebuah pendekatan yang membedakan project ini dari analisis single-table biasa.
 
-## Key Findings
-
-- **Genre underserved**: beberapa genre menunjukkan rating tinggi namun volume konten yang masih terbatas di katalog, menandakan peluang produksi/akuisisi.
-- **Movie vs TV Show**: perbandingan rating rata-rata dan popularitas menunjukkan preferensi audiens antara dua format ini.
-- **Negara produksi**: sejumlah negara dengan volume produksi kecil menunjukkan rating rata-rata tinggi, kandidat untuk ekspansi geografis konten.
-- **Tren rating tahunan**: memberikan gambaran apakah kualitas konten Netflix (dari sisi rating) meningkat atau menurun seiring waktu.
-
-## Recommendations
-
-- Fokuskan investasi produksi pada genre dengan rating tinggi namun volume konten rendah
-- Evaluasi ulang strategi konten di negara-negara dengan efisiensi rating tinggi untuk ekspansi produksi lokal
-- Gunakan tren rating tahunan sebagai salah satu indikator evaluasi strategi kurasi konten
-
 ## Tech Stack
 
 - **Python**: Pandas (cleaning, join & analysis), Plotly (visualisasi)
@@ -45,5 +32,3 @@ Kedua tabel di-**join** menggunakan kolom `id` untuk memungkinkan analisis level
 - **Version control**: Git + GitHub
 
 ---
-
-*Project ini merupakan lanjutan dari [Book Publishing Strategy Analysis](#) <!-- ganti dengan link repo buku -->, dengan penambahan skill join antar tabel dan analisis level cast/crew.*
